@@ -120,8 +120,9 @@ Look at the learning outcomes both for the overall E80 course, and Lab 1, and th
 
 ## Learning Outcome Categorization
 
-::: r-fit-text
-#### E80
+#### E80 General
+
+::: {.r-fit-text}
 
 ::: columns
 ::: column
@@ -137,7 +138,11 @@ Look at the learning outcomes both for the overall E80 course, and Lab 1, and th
 -   Work effectively on technical problems as a team under pressure.
 :::
 :::
+:::
 
+## Learning Outcome Categorization
+
+::: {.r-fit-text}
 #### Lab 1
 
 - Modify an E79 robot to build an E80 robot.
@@ -258,6 +263,8 @@ This year we are introducing some new policies to allow you to revise your work 
 4.  Meaning
 5.  Impact
 :::
+
+::: fragment
 
 [Google Blog Post on Project Aristotle (Web Archive)](https://web.archive.org/web/20230926081613/https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/)
 
