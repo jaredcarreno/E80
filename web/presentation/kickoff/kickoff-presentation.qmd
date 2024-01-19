@@ -140,9 +140,12 @@ Look at the learning outcomes both for the overall E80 course, and Lab 1, and th
 
 #### Lab 1
 
--   Explain the basic operation of your robot, including details about the battery powering it.
--   Autonomously navigate your robot through an obstacle course.
--   Explain the limitations and challenges of open loop control and articulate how a closed loop design addresses them
+- Modify an E79 robot to build an E80 robot.
+- Program your robot to traverse basic trajectories.
+- Extract data from your robot, import it into MATLAB, and plot it.
+- Use statistical measures to analyze data gathered from your robot.
+- Explain the limitations and challenges of open loop control.
+- Relate your robot's behavior to governing equations from E79.
 
 #### Lab 1 Writing
 
@@ -156,16 +159,16 @@ E80 moves quickly and you've got multiple things to turn in each week.
 
 [Canvas is the place to turn everything in!]{style="color:red"}
 
-#### 1. Lab Submission Sheet
-
-::: fragment
-Submit key deliverables collected in lab. [Due at the end of your lab section each week (5:15 pm).]{style="color:red"}
-:::
-
-#### 2. Lecture Quiz
+#### 1. Lecture Quiz
 
 ::: fragment
 Watch lecture videos and take quiz each week. [Due each Monday at 12 pm (noon).]{style="color:red"}
+:::
+
+#### 2. Lab Submission Sheet
+
+::: fragment
+Submit key deliverables collected in lab. [Due at the end of your lab section each week (5:15 pm).]{style="color:red"}
 :::
 
 #### 3. Writing & Reflection Section
@@ -237,6 +240,7 @@ This year we are introducing some new policies to allow you to revise your work 
 
 ::: incremental
 1.  You must submit **something** by the deadline.
+    - Don't phone this in because there is limited time for resubmission.
 2.  After you receive feedback, you can revise your submissions until spring break.
     -   Most of specs can be done outside of lab with data.
     -   However, if you weren't able to get good data, there is one week before spring break where you can go back to collect more.
@@ -247,8 +251,13 @@ This year we are introducing some new policies to allow you to revise your work 
 
 ## Google Project Aristotle describes the attributes of a high-functioning team
 
-::: {#fig-project-aristotle}
-![](images/google-project-aristotle.png)
+::: incremental
+1.  **_Psychological Safety_**
+2.  Dependability
+3.  Structure and Clarity
+4.  Meaning
+5.  Impact
+:::
 
 [Google Blog Post on Project Aristotle (Web Archive)](https://web.archive.org/web/20230926081613/https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/)
 
