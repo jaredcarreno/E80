@@ -19,8 +19,9 @@ The specific due dates for each group are listed below.
 
 ## Week 1: E80 Kickoff meeting
 
-- Kickoff Slides
-- [Team Contract Template](https://drive.google.com/file/d/19eX-56mt_uQP-_QhgSkzI-ja6AyATNCw/view?usp=sharing)
+- [Kickoff Slides](../presentation/kickoff/kickoff-presentation.qmd)
+- [Team Contract Guidelines](../presentation/kickoff/team-contract-guidelines.qmd)
+  - [Team Contract Template](../presentation/kickoff/team-contract-template.qmd)
 
 ## Week 2: Statistics for Experiments
 
