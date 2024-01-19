@@ -25,8 +25,8 @@ The specific due dates for each group are listed below.
 
 ## Week 2: Statistics for Experiments
 
-- [Basic Statistics for Experiments Videos](/lectures/SLIDES_20180718_01_IntroAndBasics.pdf)
-- [Basic Statistics for Experiments Slides](https://drive.google.com/file/d/1281KE-CBNBd1S_9K1VveNUs9GnaWCWOn/view?usp=sharing)
+- [Basic Statistics for Experiments Videos](https://www.youtube.com/watch?v=ywIUp9uNmY8&list=PLDA3QBjykWVxlOIHkdFEiuaXp-02mt8VI)
+- [Basic Statistics for Experiments Slides](/lectures/SLIDES_20180718_01_IntroAndBasics.pdf)
 - [Basics Statistics Example Spreadsheet](https://docs.google.com/spreadsheets/d/1vX6A31pxA10KfnWXvVotVhlXlFhyXyB6btyzb5Xk4xo/edit?usp=sharing)
 - [Basics Statistics Example MATLAB](https://drive.google.com/open?id=1g59Dyz9PjarGOT66BUw4t11QvD0FXfd_)
 - [All Statistics Summary Document](https://drive.google.com/open?id=1vHS10FuGOs_IwQG8Uzs9UoeD4REUTOl4)
