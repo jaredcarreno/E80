@@ -2,30 +2,23 @@
 title: 'Lab 2: Basic Electrical Measurements'
 ---
 
-**UNDER CONSTRUCTION, DO NOT USE FOR PRELAB**
-
 Team size: 2
-[Submission Sheet](/labs/lab2/submission.qmd) [Word](/labs/lab2/submission.docx)
-[Writing](/labs/lab2/writing.qmd)
-
-## Learning Objectives
-
-After successful completion of this lab, you will be able to...
-
-1. Use a multimeter, function generator, power supply, and oscilloscope.
-2. Describe what "instrument loading" means and explain why it happens.
-3. Build operational amplifier buffers to reduce instrument loading.
-4. Explain how to relate RMS voltages and amplitudes of sinusoidal voltage signals.
-5. Apply error propagation techniques to resistive voltage dividers to make uncertainty predictions in voltage measurements.
-
+Submission Sheet: [html](/labs/lab2/submission.qmd) [Word](/labs/lab2/submission.docx)
+Prelab Help Sheet: [html](/labs/lab2/prelab.qmd)
 
 ## 0. Introduction
 
 In this lab you review the use of electrical test equipment, calculate the uncertainty in a measurement based on its components, and apply equivalent circuit models to understand instrument loading and op-amp buffers.  Electrical instruments and op-amps are used in every lab in this course, so we are doing this lab to build your toolkit for making experimental measurements.   Another goal of the lab is for you to practice error analysis and propagation.
 
-This lab will be completed in sub-teams of two students.  Before the lab you must decide how you will split your team. Two other labs (labs 3, 4 and 5) will also be completed as sub-teams, and you must use a different sub-team for each of these labs.  Each sub-team will be responsible for its own submission sheet. Pre-lab work may still be carried out with your whole team, but be sure each sub-team is ready to tackle the in-lab work independently.  Even though your team will be split into two sub-teams, you will only have access to one motherboard/Teensy assembly.  Plan your work carefully so that you share it equitably.
+After successful completion of this lab, you will be able to...
 
- **For pre-lab purposes**, a sample submission sheet that contains all of the questions and requirements on the submission sheet is [here](https://docs.google.com/document/d/1i5vG08lq4HfAgMKqH7ONPxKtZEuw023A/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true).  Writing software and processing simulated data sets is allowed and, in fact, encouraged during the pre-lab period. Two documents from previous iterations of E80 [Auntie Spark's Guide to breadboards](http://www.eng.hmc.edu/NewE80/PDFs/AuntieSparksGuideToBreadboarding.pdf) and [Uncle Sparky's guide to Voltage, Current, and Resistance Measurements](http://www.eng.hmc.edu/NewE80/PDFs/Uncle%20Sparky's%20Guide%20to%20Voltage%20Current%20and%20Resistance%20Measurement.pdf) are helpful prelab reads.
+- [ ] Use a multimeter, function generator, power supply, and oscilloscope.
+- [ ] Describe what "instrument loading" means and explain why it happens.
+- [ ] Build operational amplifier buffers to reduce instrument loading.
+- [ ] Explain how to relate RMS voltages and amplitudes of sinusoidal voltage signals.
+- [ ] Apply error propagation techniques to resistive voltage dividers to make uncertainty predictions in voltage measurements.
+
+This lab will be completed in sub-teams of two students.  Before the lab you must decide how you will split your team. Three other labs (labs 3, 4 and 5) will also be completed as sub-teams, and you must use a different sub-team for each of these labs (if possible).  Each sub-team will be responsible for its own submission sheet. Pre-lab work may still be carried out with your whole team, but be sure each sub-team is ready to tackle the in-lab work independently.  Even though your team will be split into two sub-teams, you will only have access to one motherboard/Teensy assembly.  Plan your work carefully so that you share it equitably.
 
 
 ## 1.  Logging Analog Data with the Teensy

@@ -8,7 +8,7 @@ format:
 
 Keep answers as short as possible while still meeting specifications. Submit as a PDF.
 
-## Section 1: What is one 'Teensy Unit'? 
+## What is one 'Teensy Unit'? 
 
 i.e.: How much has the Voltage input to the Teensy changed when the number reported by matlablogging.m increases by 1?  Include a graph of Teensy output vs. sample number, any other relevant measurement setup information or measurements, and calculations showing how you did your conversion from measured units to Teensy units.
 
@@ -25,7 +25,7 @@ Complete Specification:
 - [ ] Calculations are correct and yield the proper Teensy unit value.  
 
 {{< pagebreak >}}
-## Section 1: What is the sample rate of the Teensy running matlablogging.ino? 
+## What is the sample rate of the Teensy running matlablogging.ino? 
 
 Effort Specification:
 1. Includes a graph of data sampled from the Teensy
@@ -36,9 +36,11 @@ Complete Specification:
 1. Calculations are correct and yield the proper Teensy unit value.
 
 {{< pagebreak >}}
-## Sections 5: Fill in this table
+## Fill in this table of properties for voltage dividers
 
 Fill in only one of the "Measured Output Voltage" columns for each measurement, whichever is appropriate to the instrument that you are using to measure.  If you are using the "Measured Output Voltage (Vpp)" column, then also convert that measured voltage to an RMS value in the Converted Output Voltage (Vrms) column.
+
+Provide example calculations showing how you calculated the predicted output voltage and the predicted uncertainty bounds of the case where Z1=10 M$\Omega$, Z2=20 M$\Omega$ and you measured the output with the multimeter.
 
 | Z1 & Z2 | Instrument | Predicted Output Voltage (Vrms) | Measured Output Voltage (Vrms) | Measured Output Voltage (Vpp) | Covnerted Output Voltage (Vrms) | Predicted Uncertainty Bounds (%) | Difference from Theory (%) |
 |--------|-------|--------|-------|------|------|--------|-------|
@@ -59,27 +61,20 @@ Fill in only one of the "Measured Output Voltage" columns for each measurement, 
 Effort Specification:
 1. At least half of the measurements are filled in with plausible values.
 2. Measured values also have a corresponding predicted value that shows understanding of the divider equation.
+3. Example calculation shows understanding of divider equations.
+4. Example calculation uses error propagation to find the uncertainty bounds in the output voltage.
 
 Complete Specification:
-1. All measurements are filled in with correct values
-2. Theoretical calculations correctly include loading effects and match measurements well. (i.e.: Predicted Output Voltage (Vrms) and Measured/Converted Output Voltage (Vrms) are within predicted error bounds of one another.)
+1. All measurements are filled in with correct values that match theory.
+2. Example calculation additionally shows understanding of loading effects and use correct instrument loads.
+3. All theoretical calculations (inccluding the example calcualtion) correctly include loading effects and match measurements well. (i.e.: Predicted Output Voltage (Vrms) and Measured/Converted Output Voltage (Vrms) are within predicted error bounds of one another.)
 
 {{< pagebreak >}}
-## Section 5: Provide an example Uncertainty Calculation
-
-Provide example calculations showing how you calculated the predicted output voltage and the predicted uncertainty bounds of the case where Z1=10 M$\Omega$, Z2=20 M$\Omega$ and you measured the output with the Elenco.
-
-Effort Specification:
-1. Calculations show understanding of divider equations.
-2. Error propagation is used to find the uncertainty bounds.
-
-Complete Specification:
-1. Calculations additionally show understanding of loading effects and use correct instrument loads.
-
-{{< pagebreak >}}
-## Section 6: Fill in this table
+## Section 6: Fill in this table of properties for voltage dividers with op-amp buffers
 
 Each measurement will use only one of the "Measured Output Voltage" columns, whichever is appropriate to the instrument that you are using to measure.
+
+Provide example calculations showing how you calculated the predicted output voltage and the predicted uncertainty bounds of the case where there is an op-amp at teh output, Z1=10 M$\Omega$, Z2=20 M$\Omega$ and you measured the output with the Elenco.
 
 | Circuit | Instrument | Predicted Output Voltage (Vrms) | Measured Output Voltage (Vrms) | Measured Output Voltage (Vpp) | Predicted Output Voltage (Vrms) | Predicted Uncertainty Bounds (%) | Difference from Theory (%) |
 |--------|-------|--------|-------|------|------|--------|-------|
@@ -91,21 +86,11 @@ Each measurement will use only one of the "Measured Output Voltage" columns, whi
 Effort Specification:
 1. At least half of the measurements are filled in with plausible values.
 2. Measured values also have a corresponding predicted value that shows understanding of the divider equation.
+3. Example calculation is present and is theoretically appropriate.
 
 Complete Specification:
 1. All measurements and calculations are filled in with correct values
-
-{{< pagebreak >}}
-## Section 6: Provide an Example Op-amp calculation
-
-Provide example calculations showing how you calculated the predicted output voltage and the predicted uncertainty bounds of the case where there is an op-amp at teh output, Z1=10 M$\Omega$, Z2=20 M$\Omega$ and you measured the output with the Elenco.
-
-Effort Specification:
-1. Some calculation is present that is theoretically appropriate.
-
-Complete Specification:
-1. Theoretical calculations additionally include a 1-2 sentence explanation of how the op-amp is affecting the calculation and measurement.  That explanation makes reference to appropriate op-amp input and output impedance properties.
-
+2. Example calculation additionally includes a 1-2 sentence explanation of how the op-amp is affecting the calculation and the measurement.  The explanation should make reference to appropriate op-amp input and output impedance properties.
 
 {{< pagebreak >}}
 ## Extra Credit Writeups:
