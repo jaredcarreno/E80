@@ -31,9 +31,9 @@ By the end of this writing assignment you will...
 
 - [ ] Y-axis label is clear and descriptive of the dependent variable
 - [ ] X-axis label is clear and descriptive of the independent variable
-- [ ] All axis ticks are 
+- [ ] All axis ticks are legible
 - [ ] Graph is easily readable (e.g., appropriate fonts, line weights and data markers and not overly cluttered)
-- [ ] Legend is present and well-placed (e.g., no on top of any data)
+- [ ] Legend is present and well-placed if multiple lines are present on the plot (e.g., no on top of any data)
 - [ ] Correct units in the labels for both axes (e.g., Distance [m])
 - [ ] Data is shown with good level of zoom to highlight the important parts of the captured trace. Beginning and end of the trace is trimmed.
 - [ ] Data overlayed well (e.g., all three axes of acceleration measurements are plotted together on the same axes in different colors.)
@@ -47,15 +47,15 @@ By the end of this writing assignment you will...
 ### Supporting Text
 
 - [ ] Refers to each figure
-- [ ] Explains the signifiance and meaning of the figure.
-- [ ] Correct sentence mechanics like cohesion and coherence between sentences and no run-ons
-- [ ] Correct paragraph mechanics like topic sentences and placement at breaks between ideas
+- [ ] Explains the significance and meaning of the figure.
+- [ ] Correct sentence mechanics like cohesion and coherence between sentences and no run-ons.
+- [ ] Correct paragraph mechanics like topic sentences and placement at breaks between ideas.
 - [ ] Language is not stilted and jargon is kept to a reasonable minimum.
 
 ### Code
 
-- [ ] Code used to process and plot the captured data is present
-- [ ] Each script file has a descriptive filename (e.g., `acceleration-data-procesor.m`)
+- [ ] Code used to process and plot the captured data is present.
+- [ ] Each script file has a descriptive filename (e.g., `acceleration_data_procesor.m`).
 - [ ] Filename, author name, author email, and date included at the top of each script file.
-- [ ] Each function contains a comment at the top describing its inputs and outputs
+- [ ] Each function contains a comment at the top describing its purpose.
 - [ ] Script file automatically exports and generated figures or processed data to files.
