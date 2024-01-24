@@ -52,4 +52,4 @@ By the end of this writing assignment you will...
 ### Technical Inferences in Text
 - [ ]	Verify the correctness of your theoretical results by referring to FFT Figure, which includes justifying both the power levels and frequency components of your measurement.
 - [ ]	Use continuous and discrete Fourier transforms and notation where appropriate to discuss the derivation of your transform and your MATLAB plot.
-- [ ]	Mathematically correct and insightful analysis of your input signal explains the output (5)
+- [ ]	Mathematically correct and insightful analysis of your input signal explains the output.
