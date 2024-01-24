@@ -4,7 +4,6 @@ subtitle: Figures and Captions
 format:
   html: default
   pdf: default
-permalink: writing/lab1/index.html
 ---
 
 ## Writing Assignment
