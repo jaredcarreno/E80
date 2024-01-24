@@ -103,7 +103,8 @@ The overall grade on an assignment is determined by how many of the sections mee
 
 Effort specs describe **good-faith effort** whereas completion specs describe **correctness**.
 
-In most situations, completing effort specs is equivalent to a passing grade on the assignment and the remaining sections of completion specs are worth a grade level each.
+In most situations, completing all the effort specs is equivalent to a passing grade on the assignment.
+The remaining sections of completion specs raise your grade from a passing grade to full credit.
 
 If the initial version of a submitted assignment does not meet specs, it may be revised according to the stipulations of the course [resubmissions policy](#resubmission-policy).
 
@@ -199,8 +200,10 @@ When in doubt about whether an activity is acceptable outside of lab, ask.
 
 ### Resubmission Policy
 
-Lab submission sheets and writing assignments in E80 are able to be resubmitted if they do not meet completion specs on the initial attempt.
-This resubmission policy is subject to the stipulations listed below:
+Lab submission sheets and writing assignments in E80 are able to be resubmitted without penalty if they do not meet completion specs on the initial attempt.
+To be clear, this means that resubmitted assignments are worth the same amount as initial submission and full credit can be earned even if the initial submission does not fully meet the specifications.
+
+The resubmission policy is subject to the stipulations listed below:
 
 1.  You must submit **something** by the assignment deadline.
     - Don't phone this in because there is limited time for resubmission.
