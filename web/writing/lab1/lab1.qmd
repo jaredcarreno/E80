@@ -27,7 +27,15 @@ By the end of this writing assignment you will...
 
 ## Specifications
 
-### Figure Design
+### Effort
+
+- [ ] A figure of acceleration plots is present and shows the required traces.
+- [ ] The figure has a caption
+- [ ] There is a paragraph of text explaining the contents of the figure.
+
+### Completion
+
+#### Figure Design
 
 - [ ] Y-axis label is clear and descriptive of the dependent variable
 - [ ] X-axis label is clear and descriptive of the independent variable
@@ -38,13 +46,13 @@ By the end of this writing assignment you will...
 - [ ] Data is shown with good level of zoom to highlight the important parts of the captured trace. Beginning and end of the trace is trimmed.
 - [ ] Data overlayed well (e.g., all three axes of acceleration measurements are plotted together on the same axes in different colors.)
 
-### Caption
+#### Caption
 
 - [ ] Contains a figure number.
 - [ ] Includes a succinct description of the contents of the figure.
 - [ ] Is free of grammar and spelling issues.
 
-### Supporting Text
+#### Supporting Text
 
 - [ ] Refers to each figure
 - [ ] Explains the significance and meaning of the figure.
@@ -52,7 +60,7 @@ By the end of this writing assignment you will...
 - [ ] Correct paragraph mechanics like topic sentences and placement at breaks between ideas.
 - [ ] Language is not stilted and jargon is kept to a reasonable minimum.
 
-### Code
+#### Code
 
 - [ ] Code used to process and plot the captured data is present.
 - [ ] Each script file has a descriptive filename (e.g., `acceleration_data_procesor.m`).
