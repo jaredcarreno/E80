@@ -66,3 +66,11 @@ By the end of this writing assignment you will...
 - [ ] Filename, author name, author email, and date included at the top of each script file.
 - [ ] Each function contains a comment at the top describing its purpose.
 - [ ] Script file automatically exports and generated figures or processed data to files.
+
+### Comments
+
+Add specific notes here about the assignment and what is yet to be completed.
+
+<textarea id="comments" name="comments" rows="10" cols="50">
+
+</textarea>
