@@ -74,11 +74,31 @@ void loop() {
   //       void motorDriver.drive(int motorA_power,int motorB_power,int motorC_power); 
   // the value of motorX_power can range from -255 to 255, and sets the PWM applied to the motor 
   // The following example will turn on motor B for four seconds between seconds 4 and 8 
-  if (currentTime > 4000 && currentTime <8000) {
-    motorDriver.drive(0,120,0);
-  } else {
+  
+  // The mapping of the motor A, B, and C is unknown for up, down, left, right
+  // mappings will be as follows: (L, U/D, R)
+  // PWM varies from -255 to 255
+  
+  // 1 minute break/setup time
+  if (currentTime > 0 && currentTime < 60000) {
     motorDriver.drive(0,0,0);
   }
+
+  // assuming negative is down/backward and positive is up/forward
+  // movement based on the obstacle diagram from Lab 1 manual
+  if (currentTime > 64000 && currentTime < 67000) {
+    motorDriver.drive(0,-120,0);
+  } else if (currentTime > 67000 && currentTime < 72000) {
+    motorDriver.drive(120,0,120); // assuming neutral buoyancy
+  } else if (currentTime > 72000 && currentTime < 75000) {
+    motorDriver.drive(0, 120, 0)
+  }
+
+
+
+
+
+
 
   // DONT CHANGE CODE BELOW THIS LINE 
   // --------------------------------------------------------------------------
